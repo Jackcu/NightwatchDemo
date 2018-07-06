@@ -1,0 +1,21 @@
+{
+  "name": "nightwatchdemo1",
+  "version": "1.0.0",
+  "description": "- nodejs v8.11+ # node -v - npm 5.6.0+ (\bpackage-lock support required) # node -v - nightwatch v0.9.21+",
+  "scripts": {
+    "test":"node ./nightwatch.js -c ./nw_config/nightwatch.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jackcu/nightwatchDemo1.git"
+  },
+  "author": "Jack",
+  "bugs": {
+    "url": "https://github.com/Jackcu/nightwatchDemo1/issues"
+  },
+  "homepage": "https://github.com/Jackcu/nightwatchDemo1#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "nightwatch": "^0.9.21"
+  }
+}
