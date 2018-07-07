@@ -1,4 +1,5 @@
 # Dependency tool
+- git 
 - nodejs v8.11+ # node -v
 - npm 5.6.0+ (package-lock support required) # node -v
 - chrome max version:v66-68 (depend on chromedriver)
@@ -8,4 +9,4 @@
 - npm i
 
 # Run test
-npm run test ./test/helloWorld.js
+- npm run test ./test/helloWorld.js
